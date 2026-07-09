@@ -5,7 +5,7 @@
 # Lumi
 ### *Your Music Companion.*
 
-**A personal, lossless, offline-first music player — built for people who actually care about their music.**
+**A personal, lossless, offline-first music player - built for people who actually care about their music.**
 
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Android-blue?style=flat-square)](#)
 [![Built with Electron](https://img.shields.io/badge/Desktop-Electron-47848F?style=flat-square&logo=electron)](#)
@@ -21,9 +21,9 @@
 
 Lumi is a **personal music player** built from the ground up for listeners who are tired of streaming services telling them what to hear, how to hear it, and charging them monthly for the privilege.
 
-It plays **your music** — files you own, stored on your own device or your own Google Drive — with no ads, no algorithms, no subscriptions, no data collection, and no compromises on audio quality.
+It plays **your music** - files you own, stored on your own device or your own Google Drive - with no ads, no algorithms, no subscriptions, no data collection, and no compromises on audio quality.
 
-The name *Lumi* comes from the Latin root for **light** — because music, at its best, is something that illuminates a moment. The app is built around that feeling: calm, personal, immersive, and entirely yours.
+The name *Lumi* comes from the Latin root for **light** - because music, at its best, is something that illuminates a moment. The app is built around that feeling: calm, personal, immersive, and entirely yours.
 
 ---
 
@@ -31,8 +31,8 @@ The name *Lumi* comes from the Latin root for **light** — because music, at it
 
 | Platform | Technology | Status |
 |----------|-----------|--------|
-| **Windows** (PC / Laptop) | Electron + React | ✅ Available |
-| **Android** (Phone / Tablet) | Capacitor + React | ✅ Available |
+| **Windows** (PC / Laptop) | Electron + React |  Available |
+| **Android** (Phone / Tablet) | Capacitor + React |  Available |
 
 Both platforms share the **same React UI codebase**, meaning every visual update and feature ships to both platforms simultaneously.
 
@@ -40,66 +40,66 @@ Both platforms share the **same React UI codebase**, meaning every visual update
 
 ## Features
 
-### 🎵 Core Playback
+###  Core Playback
 - **True lossless audio playback** — MP3, FLAC, WAV, ALAC, OGG, AAC, OPUS, AIFF, APE and more
 - **Hi-Res audio support** — 24-bit / 96kHz / 192kHz files play natively, no downsampling
 - **Gapless-ready playback** — powered by Chromium's native audio decoder on desktop, ExoPlayer (Media3) on Android
 - Full **play, pause, skip, seek, shuffle, repeat one, repeat all** — all working correctly
 
-### 📁 Offline-First: Your Local Library
+###  Offline-First: Your Local Library
 - Connect any folder from your PC or Android device as a playlist
 - Lumi **reads embedded tags** (ID3, FLAC, M4A) automatically — title, artist, album, cover art
 - Folders stay connected across app restarts — **no re-importing ever**
 - **Hi-Res badge** on songs above 44.1kHz so you always know what you're listening to
 
-### ☁️ Online Mode: Google Drive Streaming *(Desktop)*
+###  Online Mode: Google Drive Streaming *(Desktop)*
 - Paste a public Google Drive folder link → Lumi creates an online playlist instantly
 - Stream your music from your own cloud — no third-party servers involved
 - Drive playlists persist across sessions just like local ones
 - Offline and online playlists coexist in the same library
 
-### 🎨 Playlist Management (Spotify-style)
+###  Playlist Management (Spotify-style)
 - **Custom playlist cover photos** — upload any image to personalise your playlists
 - **Rename playlists** inline — click the title to edit, just like Spotify
 - **Sort by name or date modified** — ascending and descending
 - **Refresh playlists** to pick up new files added to a folder
 
-### 🖥️ Full-Screen Now Playing
+###  Full-Screen Now Playing
 - **Cover art mode** — large, beautiful album artwork fills the screen
 - **Vinyl record mode** — animated spinning vinyl disc with real groove rings and a pivoting tonearm; rotates while playing, pauses when you pause
 - Toggle between both modes with a single button
 
-### 🎛️ Now Playing Bar
+###  Now Playing Bar
 - Persistent mini-player at the bottom of every screen
 - Click the thin progress line to seek instantly
 - Volume slider, queue toggle, track info — all in one compact bar
 
-### 📋 Live Queue
+###  Live Queue
 - Slide-in queue sidebar showing **Now Playing** and **Up Next**
 - Queue respects shuffle order — shows the actual upcoming song order, not the original list
 - Click any song in the queue to jump to it immediately
 
-### 🔀 Smart Shuffle & Repeat
+###  Smart Shuffle & Repeat
 - **Shuffle Play** button — starts from a random song and builds a shuffled queue automatically
 - **Repeat All** — loops the entire playlist
 - **Repeat One** — loops the current song indefinitely
 - Shuffle and repeat modes work correctly with the queue, skip buttons, and autoplay
 
-### ⌨️ Keyboard Shortcuts *(Desktop)*
+###  Keyboard Shortcuts *(Desktop)*
 | Shortcut | Action |
 |----------|--------|
 | `Space` | Play / Pause |
 | `Ctrl + →` | Next song |
 | `Ctrl + ←` | Previous song |
 
-### 🔔 Windows Media Controls 
+###  Windows Media Controls 
 - **Notification area** — shows song title, artist, album art, and working prev/play/pause/next buttons
 - **Taskbar thumbnail** — hover the Lumi taskbar icon to get prev/play/pause/next buttons in the preview popup
 - **Media keys** on keyboard work natively
 - **Lock screen** now-playing info
 - All powered by the Windows System Media Transport Controls (SMTC) via the Web Media Session API
 
-### 🐱 Cat Companion
+###  Cat Companion
 - A draggable animated cat lives on the UI across all screens
 - Randomly cycles through **sitting, walking, running, and sleeping** animations using your own GIF files
 - Moves autonomously across the screen, bounces off edges, and flips direction
@@ -107,7 +107,7 @@ Both platforms share the **same React UI codebase**, meaning every visual update
 - Grab and drag it anywhere — it resumes its own movement when you let go
 - Touch-enabled on Android
 
-### 🎨 Starry Night Theme
+###  Starry Night Theme
 - Deep navy blue (`#0d1b4b`) to black gradient throughout
 - Aqua-blue (`sky-400`) accent colour inspired by Van Gogh's *The Starry Night*
 - Custom Lumi logo shown as fallback art when songs have no embedded cover
