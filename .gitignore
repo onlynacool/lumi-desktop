@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+release/
+
+# Environment & secrets
+.env
+.env.*
+*.env
+
+# Electron builder cache
+.electron-builder-cache/
+
+# Sensitive — API keys & personal data
+src/services/DriveService.ts
+
+# Store data (contains your personal playlist data)
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
